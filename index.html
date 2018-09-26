@@ -217,19 +217,31 @@
     });
 
     $(".goToMap").on('click', function() {
-      ga('send', 'event', 'Link', 'Click', 'Click Harta');
+      gtag('event', 'click', {
+        'event_label': 'Click Harta',
+        'event_category': 'Click'
+      });
     });
 
     $(".tel1").on('click', function() {
-      ga('send', 'event', 'Link', 'Click', 'Click Telefon 1');
+      gtag('event', 'click', {
+        'event_label': 'Click Telefon 1',
+        'event_category': 'Click'
+      });
     });
 
     $(".tel2").on('click', function() {
-      ga('send', 'event', 'Link', 'Click', 'Click Telefon 2');
+      gtag('event', 'click', {
+        'event_label': 'Click Telefon 2',
+        'event_category': 'Click'
+      });
     });
 
     $(".vilaprahova").on('click', function() {
-      ga('send', 'event', 'Link', 'Click', 'Click Banner Vila Prahova');
+      gtag('event', 'click', {
+        'event_label': 'Click Banner Vila Prahova',
+        'event_category': 'Click'
+      });
     });
     </script>
 
